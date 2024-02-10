@@ -1,0 +1,20 @@
+/* Import Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom global styles */
+:root {
+  --bg-color-light: #ffffff; /* Light mode background color */
+  --bg-color-dark: #1a202c; /* Dark mode background color */
+}
+
+/* Default to light mode background */
+body {
+  background-color: var(--bg-color-light);
+}
+
+/* Dark mode styles */
+.dark {
+  background-color: var(--bg-color-dark);
+}
