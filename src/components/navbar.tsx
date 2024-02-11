@@ -12,16 +12,16 @@ const Navbar: React.FC = () => {
       {/* Menu items for larger screens */}
       <div className="hidden md:flex justify-center">
         <ul className="flex justify-center">
-          <li>
+          <li className="m-4">
             <a href="#home">Home</a>
           </li>
-          <li>
+          <li className="m-4">
             <a href="#biography">Biography</a>
           </li>
-          <li>
+          <li className="m-4">
             <a href="#literature">Literature</a>
           </li>
-          <li>
+          <li className="m-4">
             <a href="#interview">Interview</a>
           </li>
         </ul>
