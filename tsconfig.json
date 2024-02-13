@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["*"],
+      "shadcn-ui/*": ["src/components/ui/*"],
+      "@/lib/utils": ["src/lib/utils"]
+    },
     "target": "es5",
     "lib": [
       "dom",

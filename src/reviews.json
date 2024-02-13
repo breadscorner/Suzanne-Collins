@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "title": "YEAR OF THE JUNGLE",
+    "genre": "Picture Book",
+    "reviewer": "Kirkus Reviews",
+    "quote": "Important and necessary. Eases the pain of separation and deployment for families with young children.",
+    "rating": "STARRED REVIEW"
+  },
+  {
+    "id": 2,
+    "title": "WHEN CHARLIE MCBUTTON LOST POWER",
+    "genre": "Picture Book",
+    "reviewer": "School Library Journal",
+    "quote": "A clever, humorous story in rhyme. This would be an excellent read-aloud choice for units on electricity or weather."
+  },
+  {
+    "id": 3,
+    "title": "MOCKINGJAY",
+    "genre": "Sci-Fi",
+    "reviewer": "Los Angeles Times",
+    "quote": "Suzanne Collins has done it again with 'Mockingjay'. It's every bit as original and thought provoking, as The Hunger Games. Wow."
+  },
+  {
+    "id": 4,
+    "title": "CATCHING FIRE",
+    "genre": "Sci-Fi",
+    "reviewer": "Publishers Weekly",
+    "quote": "In the second installment of the Hunger Games series, Collins maintains the tension, leaving readers in constant suspense. The book doesn’t disappoint when it segues into the pulse-pounding action readers have come to expect.",
+    "rating": "STARRED REVIEW"
+  },
+  {
+    "id": 5,
+    "title": "THE HUNGER GAMES",
+    "genre": "Sci-Fi",
+    "reviewer": "Booklist",
+    "quote": "Collins has joined J.K. Rowling and Stephenie Meyer as a writer of children's books that adults are eager to read.",
+    "rating": "STARRED REVIEW"
+  },
+  {
+    "id": 6,
+    "title": "GREGOR THE OVERLANDER",
+    "genre": "Fantasy",
+    "reviewer": "Publishers Weekly",
+    "quote": "Collins introduces new characters and plot twists without ever losing sight of the big story’s emotional stakes. This gripping fantasy easily transitions into a series that readers will eagerly devour, and the cliffhanger ending will have them clamoring for the next installment.",
+    "rating": "STARRED REVIEW"
+  },
+  {
+    "id": 7,
+    "title": "GREGOR AND THE PROPHECY OF BANE",
+    "genre": "Fantasy",
+    "reviewer": "Kirkus Reviews",
+    "quote": "The engrossing plot and hair-raising adventures continue to thrill."
+  },
+  {
+    "id": 8,
+    "title": "GREGOR AND THE CURSE OF THE WARMBLOODS",
+    "genre": "Fantasy",
+    "reviewer": "The Horn Book Magazine",
+    "quote": "The brisk pace, excellent world-building, and compelling characters make this a satisfying page-turner."
+  },
+  {
+    "id": 9,
+    "title": "GREGOR AND THE MARKS OF SECRET",
+    "genre": "Fantasy",
+    "reviewer": "Kirkus Reviews",
+    "quote": "The pacing remains fast and the world-building rich."
+  },
+  {
+    "id": 10,
+    "title": "GREGOR AND THE CODE OF CLAW",
+    "genre": "Fantasy",
+    "reviewer": "VOYA",
+    "quote": "The final book in the series continues the action-packed, original adventures."
+  }
+]
