@@ -27,15 +27,17 @@ export function Reviews() {
   }, [reviews]);
 
   return (
-    <div className="dark:border-t-white py-2">
+    <div className="dark:border-t-white py-2 w-[90%]">
       <Carousel>
         <CarouselContent>
           {reviews.map((review) => (
             <CarouselItem key={review.id}>
-              <div className="flex flex-col items-center">
-                <p className="text-2xl m-4">{review.title}</p>
-                <p className="text-2xl m-4">"{review.quote}"</p>
-                <p className="text-xl">{review.reviewer}</p>
+              <div className="flex flex-col">
+                <p className="flex text-md m-4 justify-center">
+                  {review.title}
+                </p>
+                <p className="text-md m-4">"{review.quote}"</p>
+                <p className="text-sm text-right">- {review.reviewer}</p>
               </div>
             </CarouselItem>
           ))}

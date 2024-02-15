@@ -98,7 +98,7 @@ const App: React.FC = () => {
             Lester and came out in 2005. It has been sold into 4 foreign
             territories.
           </p>
-          <p>Her books have sold over 100 million copies worldwide.</p>
+          <p className="m-4">Her books have sold over 100 million copies worldwide.</p>
         </div>
         {/* Literature */}
         <div></div>
