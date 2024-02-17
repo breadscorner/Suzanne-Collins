@@ -7,7 +7,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "../components/ui/carousel";
+} from "../components/ui/carousel"; // Update the import path to match your file structure
 
 type Review = {
   id: number;
@@ -27,23 +27,23 @@ export function Reviews() {
   }, [reviews]);
 
   return (
-    <div className="dark:border-t-white py-2 w-[90%]">
+    <div className="dark:border-t-white text-center w-[100%]">
       <Carousel>
         <CarouselContent>
           {reviews.map((review) => (
             <CarouselItem key={review.id}>
-              <div className="flex flex-col">
-                <p className="flex text-md m-4 justify-center">
-                  {review.title}
-                </p>
-                <p className="text-md m-4">"{review.quote}"</p>
-                <p className="text-sm text-right">- {review.reviewer}</p>
+              <div className="p-1">
+                <div className="border border-gray-200 rounded-md p-4">
+                  <p className="text-lg font-semibold">{review.title}</p>
+                  <p className="text-md mt-2">{review.quote}</p>
+                  <p className="text-sm mt-4">- {review.reviewer}</p>
+                </div>
               </div>
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="absolute top-1/2 left-4 transform -translate-y-1/2" />
+        <CarouselNext className="absolute top-1/2 right-4 transform -translate-y-1/2" />
       </Carousel>
     </div>
   );

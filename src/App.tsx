@@ -20,7 +20,7 @@ const App: React.FC = () => {
       <main>
         {/* Reviews */}
         <div className="dark:border-t-white py-2">
-          <h2 className="text-4xl text-center m-4">Reviews</h2>
+          <h2 className="text-4xl text-center">Reviews</h2>
           <Reviews />
         </div>
         {/* Biography */}
